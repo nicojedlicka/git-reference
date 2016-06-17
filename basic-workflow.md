@@ -15,7 +15,7 @@ This will initialise a new repository in the current working directory.
 ### Clone an existing repository
 
 ```
-git clone https://github.com/nicojedlicka/git-reference.git 
+git clone https://github.com/nicojedlicka/git-reference.git
 ```
 This will create a new working directory *git-reference* and clone the
 existing remote repository into it.
@@ -59,6 +59,14 @@ editor will be opened in order to type in a message.
 git log
 ```
 Shows the project history.
+
+```
+git checkout
+```
+$ git checkout "branch name" => Change to "branch name" branch
+$ git checkout master => Change to master
+$ git checkout -b "branch name" => Create "branch name" branch and change to it
+$ git checkout -d "branch name" => Delete "branch name"
 
 
 ## Glossary
