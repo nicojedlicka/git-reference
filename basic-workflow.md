@@ -63,10 +63,10 @@ Shows the project history.
 ```
 git checkout
 ```
-$ git checkout "branch name" => Change to "branch name" branch
-$ git checkout master => Change to master
-$ git checkout -b "branch name" => Create "branch name" branch and change to it
-$ git checkout -d "branch name" => Delete "branch name"
+* $ git checkout "branch name" => Change to "branch name" branch
+* $ git checkout master => Change to master
+* $ git checkout -b "branch name" => Create "branch name" branch and change to it
+* $ git checkout -d "branch name" => Delete "branch name"
 
 
 ## Glossary
